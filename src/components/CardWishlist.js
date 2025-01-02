@@ -15,8 +15,7 @@ const CardWishlist = ({ wishlist, addToCart }) => {
         <strong className="text-muted mt-2">Rs {wishlist.product_price}</strong>
         <button
           onClick={() => addToCart(wishlist)}
-          class="btn btn-primary btn-block mt-3"
-        >
+          class="btn btn-primary btn-block mt-3">
           Add To Cart
         </button>
       </div>
